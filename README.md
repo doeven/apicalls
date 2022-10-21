@@ -106,6 +106,7 @@ Make sure to match your domains accordingly.
 	CURRENT_SANCTUM_STATEFUL_DOMAINS=https://app.example.com
 Sometimes, you might want to **MAIL_MAILER** to `mailgun` if you are sending emails from mailgun. 
 
+Your front-end SPA should run on 127.0.0.1 and port 5000, 5001, 5002 using the default .env file in development.
 
 
 #### .htaccess
