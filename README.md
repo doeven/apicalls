@@ -36,7 +36,7 @@ You should get 4 user to test authentication. Usernames and passwords which incl
 ** *Note:* ** Users can login using Email/Username and Password combination during API calls
 
 
-####.env File (Should be in the Root Folder)
+#### .env File (Should be in the Root Folder)
 
     APP_NAME=LaravelAppName
 	APP_ENV=local
