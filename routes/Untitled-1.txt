@@ -1,0 +1,23 @@
+
+
+
+public function last_withdrawal(Request $request){
+
+    $user = User::whereUsername($request->username)->first();
+
+    $with = Withdraw::whereUserId($user->id)->get()->latest();
+
+    return $with;
+
+}
+
+
+public function last_withdrawal(Request $request){
+
+    $user = User::whereUsername($request->username)->first();
+
+    $with = Withdraw::whereUserId($user->id)->get()->latest();
+
+    return $with;
+
+}
